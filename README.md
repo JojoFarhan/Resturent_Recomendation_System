@@ -1,11 +1,11 @@
-# 🍽️ Restaurant Recommendation by Food Review Dataset
+# Restaurant Recommendation by Food Review Dataset
 
 This project builds a **restaurant recommendation system** using food review data from Bangladesh.  
 It leverages **NLP, sentiment analysis, machine learning, and deep learning** techniques to recommend restaurants based on customer reviews.
 
 ---
 
-## 📌 Features
+## Features
 - Load and preprocess restaurant review dataset  
 - Perform **sentiment analysis** on reviews using Hugging Face Transformers  
 - Calculate **mean restaurant ratings** (scaled between 1–5)  
@@ -22,7 +22,7 @@ It leverages **NLP, sentiment analysis, machine learning, and deep learning** te
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Python Libraries**:  
   - Data Handling: `numpy`, `pandas`, `scipy`  
   - Visualization: `matplotlib`, `seaborn`  
@@ -35,7 +35,7 @@ It leverages **NLP, sentiment analysis, machine learning, and deep learning** te
 
 ---
 
-## 📂 Dataset
+## Dataset
 - **File**: `Food Review Dataset of Bangladesh.xlsx`  
 - **Sheet**: `Sheet1`  
 - Columns used:  
@@ -47,7 +47,7 @@ It leverages **NLP, sentiment analysis, machine learning, and deep learning** te
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 - Restaurant rating distribution  
 - Top 10 restaurants  
 - Sentiment distribution pie chart  
@@ -56,16 +56,16 @@ It leverages **NLP, sentiment analysis, machine learning, and deep learning** te
 
 ---
 
-## 🤖 Recommendation System
-### 🔹 Recommend Similar Restaurants
+## Recommendation System
+### Recommend Similar Restaurants
 ```python
 recommend("Kacchi Bhai - Dhanmondi")
 recommend("Barcode Cafe_Chittagong")
 
-### 🔹 Recommend Restaurants by Location
+### Recommend Restaurants by Location
 recommend_by_location("Kacchi Bhai - Dhanmondi")
 recommend_by_location("Barcode Cafe_Chittagong")
-🚀 How to Run
+How to Run
 
 Clone this repository
 Open the notebook in Google Colab
@@ -79,15 +79,15 @@ Update dataset path:
 XLSX = '/content/drive/MyDrive/Colab Notebooks/Food Review Dataset of Bangladesh.xlsx'
 Run all cells to preprocess data, analyze sentiments, visualize insights, and generate recommendations.
 
-## 📈 Future Improvements
+## Future Improvements
 
 Deploy as a web app using Streamlit or Flask
 Enhance recommendation system using deep learning embeddings
 Incorporate user preferences for personalized results
 Expand dataset to cover more restaurants and cities
 
-## 📜 License
+## License
 This project is for educational and research purposes only.
 Dataset rights belong to the original source.
 
-👨‍💻 Developed with ❤️ using Python & NLP
+Developed with ❤️ using Python & NLP
